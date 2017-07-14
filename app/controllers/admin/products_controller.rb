@@ -7,7 +7,7 @@ class Admin::ProductsController < ApplicationController
   layout "admin"
 
   def index
-    @product = Product.all
+    @products = Product.all
   end
 
   def new
